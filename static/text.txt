@@ -1,0 +1,1 @@
+Static files are those files which can be viewed by anyone through the webpage

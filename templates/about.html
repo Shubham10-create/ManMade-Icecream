@@ -1,0 +1,24 @@
+{% extends 'base.html' %} <!-- basically extends the base.html template -->
+
+{% block title %}About Us{% endblock title %}
+
+{% block mycss %} {% endblock mycss%}
+
+{% block body %}   <!--basically renders the content of block body in the body of main page i.e in base.html -->
+
+<br>
+<h1 style="text-align: center">Creator:</h1>
+<hr>
+<br>
+
+<div class="col d-flex justify-content-center">
+<div class="card mb-4" style="width: 18rem;">
+    <img class="card-img-top" src="/static/img/Shubham.jpg" alt="Card image cap">
+    <div class="card-body">
+        <p class="card-text">Hello, I'm Shubham Hedavkar from Mumbai,Maharashtra. I am a fourth year Computer Engineering undergraduate student who is more actively interested towards Python development, Machine Learning, Data Science and Analytics.
+           <br> You people can connect with me through <a target = "_blank" href="https://www.linkedin.com/in/shubham-hedavkar-4b496b1b5/"> LinkedIn </a> or through <a target = "_blank" href="https://www.instagram.com/shubham15001/"> Instagram </a></p>
+    </div> 
+</div>
+</div>
+
+{% endblock body %}

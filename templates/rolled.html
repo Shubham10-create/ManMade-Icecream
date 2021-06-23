@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+<!-- basically extends the base.html template -->
+
+{% block title %}Rolled Ice Cream{% endblock title %}
+
+{% block mycss %} {% endblock mycss%}
+
+{% block body %}
+
+<div class="container my-3">
+    <h1 class="my-4 text-center">Rolled Icecream Specials:</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rolled1.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Banana Slpit</h5>
+                    <p class="card-text">Vanilla Ice Cream, Banana, Pineapple, Strawberry, topped with Whipped Topping, Chocolate Syrup, Nuts, 
+                    and a delicious Cherry on top. </p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:50/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rolled2.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Caramel Apple</h5>
+                    <p class="card-text">Apple flavored Ice Cream, drizzled with Caramel on the inside, then rolled up and 
+                    topped with more Caramel. Tastes just like a caramel covered apple like at the fair!</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:60/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rolled3.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mango Madness</h5>
+                    <p class="card-text">Vanilla Ice Cream, Mango, Lime Juice, and Cayenne Pepper, topped with Whipped Topping and Lime Zest. 
+                        A staff personal favorite!</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:65/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rolled4.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Monkey Nuts</h5>
+                    <p class="card-text">Vanilla Ice Cream, a thin layer of Nutella is applied before Ice Cream is Rolled, topped with Chocolate 
+                    Drizzle, and sprinkled with Nuts. Yea, it taste as good as it sounds.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:55/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rolled5.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Spice</h5>
+                    <p class="card-text">The dairy or coconut milk base ice cream, using original Hershey's Chocolate, will
+                     leave your taste buds screaming for more of that creamy chocolate.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:50/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rolled6.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Coffee Flow</h5>
+                    <p class="card-text">Made from Mountain Grown beans, together with coconut milk base ice cream mix made in house,
+                     in this super creamy deloight that will awaken the senses. </p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:60/-</b></h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock body %}

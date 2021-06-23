@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+<!-- basically extends the base.html template -->
+
+{% block title %}Home{% endblock title %}
+
+{% block mycss %} {% endblock mycss%}
+
+{% block body %}
+<!--basically renders the content of block body in the body of main page i.e in base.html -->
+<div class="container-fluid px-2 py-2">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/img/ice2.jpg" height="600" width="1200" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+                    <h5>Welcome to our ManMade Ice Cream Parlour!</h5>
+                    <p>"You can't buy happiness. But you can buy Ice Cream, which is pretty much the same thing."</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/falooda.jpg" height="600" width="1200" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+                    <h5>Welcome to our ManMade Ice Cream Parlour!</h5>
+                    <p>"Ice Cream Solves Everything."</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/ice1.jpg" height="600" width="1200" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+                    <h5>Welcome to our ManMade Ice Cream Parlour!</h5>
+                    <p>"All you need is love, And maybe a liitle ice cream."</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+<div class="container my-3">
+
+<h1 class="my-4 text-center">Select from our range of Ice Creams:</h1>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/img/kulfi.jpg" height="260" width="600" class="d-block w-100" alt="...">
+
+                <div class="card-body">
+                    <p class="card-text"><b> Kulfi </b> is a frozen dairy dessrt originated in the indian sub-continent. Its often referred as "Traditional
+                    Indian Icecream". </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="/kulfi"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/img/falooda.jpg" height="260" width="600" class="d-block w-100" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b> Falooda </b> is a South Asian version of cold dessert made with rice noodles, flavoured syrup 
+                    and sweetened milk. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="/falooda"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/img/rolled.jpg" height="260" width="600" class="d-block w-100" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b> Rolled Ice Cream</b> is a frozen dessert, Once the rolling process is complete the 
+                    result is rolls of smooth, Icecream. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="/rolled"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/img/popsicle.jpg" height="260" width="600" class="d-block w-100" alt="...">
+
+                <div class="card-body">
+                    <p class="card-text"><b> Popsicle </b> is much lighter in taste, made out of milk or water, available in various
+                    seasonal flavours.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="/popsicle"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/img/familypack.png" height="260" width="600" class="d-block w-100" alt="...">
+
+                <div class="card-body">
+                    <p class="card-text"><b> Family Pack</b>, utterly delicious ice cream made from fresh milk available in a 
+                    wide range of flavours and packs </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="/familypack"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/img/gelato.jpg" height="260" width="600" class="d-block w-100" alt="...">
+
+                <div class="card-body">
+                    <p class="card-text"><b> Gelato </b> Gelato is comparatively lower in fats than regular Icecream and smooth
+                    in texture.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="/gelato"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+{% endblock body %}

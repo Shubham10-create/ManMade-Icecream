@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+<!-- basically extends the base.html template -->
+
+{% block title %}Kulfi{% endblock title %}
+
+{% block mycss %} {% endblock mycss%}
+
+{% block body %}
+
+<div class="container my-3">
+    <h1 class="my-4 text-center">Flavours of Kulfi:</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/malai.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Malai Kulfi</h5>
+                    <p class="card-text">Malai Kulfi is one of the most loved summer dessert from Indian cuisine and is also very popular in
+                        South East Asia countries. </p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:25/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rose.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rose Kulfi</h5>
+                    <p class="card-text">The refreshing Rose Kulfi is flavored with rose water and rose syrup which makes it a wonderful treat on a hot 
+                        summer day!</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:30/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/mangokulfi.png" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mango Kulfi</h5>
+                    <p class="card-text">Mango kulfi is an Indian frozen dessert which is an Indianized version of mango ice cream. It is flavoured with
+                        ripe and juicy pureed mangoes.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:35/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/kesarbadam.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kesar Badam Kulfi</h5>
+                    <p class="card-text">Kesar Badam Kulfi, an absolutely refreshing treat for summer! Creamy milk along with richness of almond and  
+                        hint of saffron makes it super deslicious.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:35/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/pista.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pista Kulfi</h5>
+                    <p class="card-text">Pista Kulfi, a popular Indian Ice cream reduced milk flavoured with saffron, cardamom, pistachio and almonds, served 
+                        chilled.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:30/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/chocolatekulfi1.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Kulfi</h5>
+                    <p class="card-text">Chocolate Kulfi, an easy and creamy malai kulfi recipe made with full cream milk and chocolate flavour. Basically the most liked 
+                        one!</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:30/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/rabri.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rabri Kulfi</h5>
+                    <p class="card-text"> Kulfi made this way with rabri tastes too good and you cannot compare it with the other kulfis available out there. Enjoy
+                        your day.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:35/-</b></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}

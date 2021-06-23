@@ -1,0 +1,95 @@
+{% extends 'base.html' %} <!-- basically extends the base.html template -->
+
+{% block title %}Gelato{% endblock title %}
+
+{% block mycss %} {% endblock mycss%}
+
+{% block body %}
+
+<div class="container my-3">
+    <h1 class="my-4 text-center">Gelato Specials:</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/gelato1.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Biscotti</h5>
+                    <p class="card-text">This gelato is made from actual biscotti blended with hazelnut and cinnamon, creating a rich and 
+                    complex taste, as well as adding a bit of crunch to texture.</p> 
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:60/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/gelato2.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pistachio</h5>
+                    <p class="card-text">The humble pistachio gelato can be a bold green or a gentler shade but always has that mouth-watering
+                     nuttiness to compliment the creaminess of the gelato.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:50/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/gelato3.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry cheesecake</h5>
+                    <p class="card-text">Strawberry cheesecake gelato has all of the fruitiness, creaminess and biscuity tastes and textures that 
+                    you’d expect from eating a slice of the pudding itself.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:65/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/gelato4.png" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Dark chocolate</h5>
+                    <p class="card-text"> Dark chocolate gelato has the consistency of a gooey brownie, and the taste of rich cocoa, a combination
+                    that is hard to beat. Most loved one!</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:60/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/gelato5.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Salted caramel</h5>
+                    <p class="card-text">Salted caramel gelato is ideal for the combination of salt and sweet that makes this such a delicious flavour,
+                    its the most popular gelato of our parlor. Amazing!</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:55/-</b></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="/static/img/gelato6.jpg" height="230" width="600" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lemon</h5>
+                    <p class="card-text"> Lemon gelato is served in a cone, for that extra touch of authenticity, in half a scooped out lemon instead.
+                    This is the most creamy gelato, as well as refreshing.</p>
+                </div>
+                <div class="card-footer">
+                    <h6 style="text-align: center;"><b>Rs:50/-</b></h6>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+{% endblock body %}

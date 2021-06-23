@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "D:\\Program Files\\python.exe",
+    "emmet.includeLanguages": {
+        "!": "html"
+    }
+}
